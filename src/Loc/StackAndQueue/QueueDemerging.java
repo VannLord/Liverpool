@@ -18,8 +18,7 @@ public class QueueDemerging {
     public static void main(String[] args) {
         Queue<QueueDemerging> NAM = new ArrayDeque<>();
         Queue<QueueDemerging> NU = new ArrayDeque<>();
-        QueueDemerging staff1 = new QueueDemerging("Son",true,);
-
+        QueueDemerging staff1 = new QueueDemerging("Son",true,new Date());
     }
 
 }
