@@ -1,5 +1,6 @@
 package io.laptrinh.Liverpool;
 
+import java.util.Arrays;
 import java.util.Date;
 
 public class Prime {
@@ -26,7 +27,25 @@ public class Prime {
         System.out.println(i.length);
         i = new int[i.length+10];
         System.out.println(i.length);
+        char[] objects = "abcdabcasd".toCharArray();
+        for (int j = 5; j < objects.length -1; j++) {
+            objects[j] = objects[j+1];
+        }
+        System.out.println(""+objects.length);
+        objects = Arrays.copyOf(objects,objects.length-1);
+        System.out.println(""+objects.length);
+        for (int j = 0; j < objects.length ; j++) {
+            System.out.print(objects[j]);
+        }
+        char[] chars = objects;
+        System.out.println("\n");
+        for (int j = 0; j < chars.length ; j++) {
+            System.out.print(chars[j]);
+        }
+        System.out.println(objects.length);
+    }
         }
 
-    }
+
+
 
