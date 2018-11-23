@@ -57,6 +57,7 @@ public class SmallestWindown {
             }
             System.out.println("Press 1 to continue!");
             m = scanner.nextInt();
+            scanner.nextLine();
         }while(m ==1 );
     }
 }
