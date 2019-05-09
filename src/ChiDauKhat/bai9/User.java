@@ -1,4 +1,4 @@
-package io.laptrinh.Liverpool.ChiDauKhuat.bai9;
+package ChiDauKhat.bai9;
 
 public class User {
      int point;

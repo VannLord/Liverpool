@@ -1,4 +1,4 @@
-package io.laptrinh.Liverpool.ChiDauKhuat.bai5;
+package ChiDauKhat.bai5;
 
 public class Number {
     float value=0;

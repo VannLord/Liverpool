@@ -1,6 +1,4 @@
-package io.laptrinh.Liverpool.ChiDauKhuat.bai2;
-
-import io.laptrinh.Liverpool.ChiDauKhuat.bai2.Person;
+package ChiDauKhat.bai2;
 
 public class PersonMain {
     public static void main(String[] args) {

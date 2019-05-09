@@ -1,4 +1,4 @@
-package io.laptrinh.Liverpool.ChiDauKhuat.bai4;
+package ChiDauKhat.bai4;
 
 import java.util.Scanner;
 

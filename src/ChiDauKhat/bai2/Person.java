@@ -1,4 +1,4 @@
-package io.laptrinh.Liverpool.ChiDauKhuat.bai2;
+package ChiDauKhat.bai2;
 
 public class Person {
     String name;
