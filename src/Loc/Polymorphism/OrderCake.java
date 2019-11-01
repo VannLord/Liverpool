@@ -2,7 +2,7 @@ package Loc.Polymorphism;
 
 import Loc.Grocery.Item;
 
-public class OrderCake extends Item {
+public class OrderCake extends Cake {
     public double weight;
     double price = weight*rate;
 
@@ -32,13 +32,13 @@ public class OrderCake extends Item {
                 ", rate=" + rate +
                 '}';
     }
-    public double getDiscount(){
-        OrderCake orderCake = new OrderCake();
-        if(orderCake.getWeight() > 1){
-            orderCake.price = (1 -orderCake.discountOfCake)*orderCake.price;
-            return orderCake.discountOfCake*orderCake.price;
-        }
-        else return 0;
-    }
+////    public double getDiscount(){
+////        OrderCake orderCake = new OrderCake();
+////        if(orderCake.getWeight() > 1){
+////            orderCake.price = (1 -orderCake.discountOfCake)*orderCake.price;
+////            return orderCake.discountOfCake*orderCake.price;
+////        }
+////        else return 0;
+//    }
 
 }

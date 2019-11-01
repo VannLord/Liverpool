@@ -52,8 +52,8 @@ public class SmallestWindown {
                     else
                         n++;
                 }
-                if (string == "") System.out.println("Unable to find windown for characters");
-                System.out.println("The smallest windown: " + string);
+                if (string == "") System.out.println("Unable to find window for characters");
+                System.out.println("The smallest window: " + string);
             }
             System.out.println("Press 1 to continue!");
             m = scanner.nextInt();

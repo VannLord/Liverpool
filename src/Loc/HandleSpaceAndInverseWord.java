@@ -14,10 +14,8 @@ public class HandleSpaceAndInverseWord {
         a = chuoi.toCharArray();
         for(int i=0;i<l-1;i++)
         {
-
             if ((a[i]==' '&& a[i+1]==' ')||a[0]==' ') {
                 for (int j = i; j < l-1; j++) a[j] = a[j + 1];
-
                 i--;
                 l--;
             }

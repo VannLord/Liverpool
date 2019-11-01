@@ -19,7 +19,6 @@ public class Prime {
                     count++;
             }
             prime++;
-
             }
             Date date = new Date();
         System.out.println(date.toString());

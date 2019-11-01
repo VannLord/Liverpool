@@ -29,7 +29,7 @@ public class StringInTheOrder {
                     j++;
                 }
                 for (int k = index; i < chars1.length -1; i++) {
-                    chars1[i] = chars1[i+1];
+                    chars1[k] = chars1[k+1];
                 }
                 chars1 = Arrays.copyOf(chars1,chars1.length-1);
                     n++;
